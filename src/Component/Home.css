@@ -1,0 +1,245 @@
+body {
+    font-family: var(--tp-ff-body);
+}
+
+.home-all {
+    margin: 2rem auto 2rem auto;
+}
+
+.home {
+    position: relative;
+    top: 7.5rem;
+    z-index: -1;
+}
+
+.home-content {
+    color: white;
+    margin: auto 8rem;
+    position: absolute;
+    top: 20rem;
+}
+
+.home img {
+    width: 100%;
+    margin-bottom: 12rem;
+}
+
+.home-content p {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.home-content h1 {
+    font-size: 5rem;
+}
+
+.paragraph p {
+    padding-left: 1rem;
+    border-left: 2px solid black;
+}
+
+.home-button {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background: #000000;
+    height: 480px;
+    line-height: 49px;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 24px;
+    margin-right: 25px;
+}
+
+.home-button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+
+.home-button-service {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: #226172;
+    height: 480px;
+    line-height: 49px;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 24px;
+    margin-right: 25px;
+}
+
+.home-button-service:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.about {
+    /* background-color: #000000; */
+    height: 50rem;
+}
+
+.about-us {
+    margin: auto 5rem auto 9rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5rem;
+    /* height: 20rem; */
+}
+
+.about-us-write {
+    margin-top: 3rem;
+}
+
+.samp {
+    margin-left: 0.3rem;
+    color: #2f87a0;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+.heading-p {
+    font-weight: 30px;
+    font-size: 45px;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.about-us p {
+    color: grey;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-size: 17px;
+}
+
+.business {
+    margin-left: -1rem;
+}
+
+.business ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 3rem;
+    row-gap: 1.5rem;
+}
+
+.business-li {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0.1rem;
+}
+
+.business img {
+    color: white;
+    border: 1px solid rgb(0, 99, 192);
+    border-radius: 50%;
+    width: 1rem;
+    /* padding: 1px; */
+    /* margin-right: 0.2rem;
+    margin-top: 0.2rem  ; */
+}
+
+.services {
+    background-color: rgb(224, 224, 224);
+    height: 45rem;
+    overflow: hidden;
+}
+
+.services-containt {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.services-containt h4 {
+    color: #2f87a0;
+}
+
+.services-containt h1 {
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1rem;
+}
+
+.serices-imgages {
+    display: flex;
+    text-align: center;
+    margin: 2rem 14rem;
+
+}
+
+.service-img {
+    width: 15rem;
+    height: 10rem;
+    margin: 1rem 1rem;
+    transition: 0.3s;
+}
+
+.service-img:hover{
+    transform: scale(1.1);
+}
+
+.service-border {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto 1rem;
+    box-shadow: 5px 10px 18px rgb(192, 192, 192);
+}
+
+.service-border h1 {
+    position: relative;
+    top: -2rem;
+    font-size: 5rem;
+    color: rgb(206, 206, 206);
+}
+
+.service-border h2 {}
+
+.service-border p {
+    margin: 1rem auto;
+}
+
+.support-img{
+    background-color: #2f87a0;
+    z-index: -5;
+    width: 100%;
+}
+
+.get-support-paragraph{
+    position: relative;
+    top: -20rem;
+    left: 39rem;
+}
+
+.player-icon{
+    font-size: 2rem;
+    color: white;
+    transition: 0.3s;
+    position: relative;
+    top: 2.5rem;
+}
+
+.play-icon{
+    background-color:  #2f87a0;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.play-icon:hover{
+    color:  #2f87a0;
+    background-color: white;
+}
